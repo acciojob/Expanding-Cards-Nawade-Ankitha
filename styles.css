@@ -1,9 +1,12 @@
 .container{
-	position:relative;
 	display:flex;
 	gap:5px;
 }
-#panel-1{
+.panel{
+	position:relative;
+/* 	font-size:0; */
+}
+#panel-1>img{
 	width:360px;
 }
 img{
@@ -11,8 +14,9 @@ img{
 	height:220px;
 	border-radius:15px;
 }
-.panel:hover{
+img:hover{
 	width:350px;
+	visibility:visible;
 }
 .img-text{
 	color:white;
@@ -20,3 +24,5 @@ img{
 	bottom:10px;
 	left:10px;
 }
+
+
